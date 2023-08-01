@@ -1,0 +1,13 @@
+.container {
+  padding: 0 20px;
+  flex: display;
+}
+
+.header__container {
+  text-align: center;
+}
+
+.header__title {
+  color: #dba90d;
+  font-size: 40px;
+}
