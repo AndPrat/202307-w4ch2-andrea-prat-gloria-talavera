@@ -1,3 +1,4 @@
+import { CharacterData } from "../../types";
 import StarWarsCard from "../StarWarsCard/StarWarsCard";
 
 interface StarWarsListProps {
@@ -9,9 +10,9 @@ const StarWarsList = (
 ): React.ReactElement => {
   return (
     <ul className="characters-list">
-      {charactersList.charactersList.map((character, index) => {
+      {charactersList.charactersList.map((character, id) => {
         return (
-          <li key={index}>
+          <li key={id}>
             <StarWarsCard starWarsCharacter={character} />
           </li>
         );

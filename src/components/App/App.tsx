@@ -7,7 +7,9 @@ const App = (): React.ReactElement => {
 
   useEffect(() => {
     (async () => {
-      const response = await fetch(import.meta.env.VITE_API_URL_STARWARS);
+      const response = await fetch(
+        "https://starwars-characters-api-dsef.onrender.com/characters",
+      );
       const apiCharactersStarWars = (await response.json()) as CharacterData[];
 
       setCharacters([...apiCharactersStarWars]);
