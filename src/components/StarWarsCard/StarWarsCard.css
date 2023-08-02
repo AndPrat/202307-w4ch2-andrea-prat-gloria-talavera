@@ -1,0 +1,33 @@
+.cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -12px;
+}
+
+.starwars-card {
+  width: 25%;
+  padding: 0 12px;
+  margin-bottom: 24px;
+}
+
+.starwars-card__wrapper {
+  border-radius: 10px;
+  border: 2px solid #dba90d;
+  background-color: rgb(0, 0, 0);
+}
+
+.starwars-card__image {
+  overflow: hidden;
+}
+
+.starwars-card__title {
+  padding: 20px;
+  color: #dba90d;
+  letter-spacing: 4px;
+}
+
+.starwars-card__information {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
