@@ -1,6 +1,11 @@
 .container {
   padding: 0 20px;
-  flex: display;
+}
+
+.main-container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .header__container {

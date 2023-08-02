@@ -12,14 +12,14 @@ const StarWarsCard = ({
 
   return (
     <article className="starwars-card">
-      <div className="starwars-card__wrapper">
-        <picture className="starwars-card__picture">
-          <img
-            src={`https://starwars-visualguide.com/assets/img/characters/${id}.jpg`}
-            alt="{name} character"
-            className="starwars-card__image"
-          />
-        </picture>
+      <picture className="starwars-card__picture">
+        <img
+          src={`https://starwars-visualguide.com/assets/img/characters/${id}.jpg`}
+          alt="{name} character"
+          className="starwars-card__image"
+        />
+      </picture>
+      <div className="starwars-card__text">
         <h2 className="starwars-card__title">{name}</h2>
         <ul className="starwars-card__information">
           <li>Height: {height} cms</li>
