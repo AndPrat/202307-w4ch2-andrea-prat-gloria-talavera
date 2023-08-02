@@ -4,5 +4,5 @@ export interface CharacterData {
   image: string;
   height: string;
   mass: string;
-  year: string;
+  created: string;
 }
