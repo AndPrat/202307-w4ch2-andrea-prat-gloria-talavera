@@ -1,5 +1,6 @@
 import { CharacterData } from "../../types";
 import StarWarsCard from "../StarWarsCard/StarWarsCard";
+import "./StarWarsList.css";
 
 interface StarWarsListProps {
   charactersList: CharacterData[];
@@ -12,7 +13,7 @@ const StarWarsList = (
     <ul className="characters-list">
       {charactersList.charactersList.map((character, id) => {
         return (
-          <li key={id}>
+          <li key={id} className="character-list__item">
             <StarWarsCard starWarsCharacter={character} />
           </li>
         );
