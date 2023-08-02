@@ -1,0 +1,12 @@
+.characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -12px;
+}
+
+.character-list__item {
+  width: 25%;
+  padding: 0 12px;
+  margin-bottom: 24px;
+}
