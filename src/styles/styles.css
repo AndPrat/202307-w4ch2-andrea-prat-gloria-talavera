@@ -11,3 +11,7 @@ body {
   font-family: "REM", sans-serif;
   background-color: #000;
 }
+
+li {
+  list-style: none;
+}

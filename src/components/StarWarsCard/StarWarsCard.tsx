@@ -11,15 +11,19 @@ const StarWarsCard = ({
   return (
     <article className="starwars-card">
       <div className="starwars-card__wrapper">
-        <picture className="starwars-card__image">
-          <img src={image} alt="{name} character"></img>
+        <picture className="starwars-card__picture">
+          <img
+            src={image}
+            alt="{name} character"
+            className="starwars-card__image"
+          />
         </picture>
         <h2 className="starwars-card__title">{name}</h2>
-        <div className="starwars-card__information">
-          <span>Height: {height}</span>
-          <span>Mass: {mass}</span>
-          <span>Year: {year}</span>
-        </div>
+        <ul className="starwars-card__information">
+          <li>Height: {height}</li>
+          <li>Mass: {mass}</li>
+          <li>Year: {year}</li>
+        </ul>
       </div>
     </article>
   );
