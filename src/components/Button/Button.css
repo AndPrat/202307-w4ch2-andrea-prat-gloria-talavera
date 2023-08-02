@@ -1,0 +1,12 @@
+button {
+  font: inherit;
+  background: transparent;
+  border: 0;
+}
+
+.button--increment {
+  background-color: #dba90d;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 50px;
+}
