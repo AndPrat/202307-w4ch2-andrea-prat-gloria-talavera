@@ -2,6 +2,7 @@ button {
   font: inherit;
   background: transparent;
   border: 0;
+  cursor: pointer;
 }
 
 .button--increment {
