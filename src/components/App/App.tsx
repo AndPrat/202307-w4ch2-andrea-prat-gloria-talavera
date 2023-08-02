@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { CharacterData } from "../../types";
 import StarWarsList from "../StarWarsList/StarWarsList";
 import "./App.css";
 
